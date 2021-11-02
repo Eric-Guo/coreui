@@ -76,7 +76,7 @@
   },
   "dependencies": {
     "@coreui/coreui-plugin-npm-postinstall": "^1.0.2",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.6.1",
     "core-js": "^3.3.4",
     "regenerator-runtime": "^0.13.3"
   },
