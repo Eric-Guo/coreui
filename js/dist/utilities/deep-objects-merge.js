@@ -1,6 +1,3 @@
-import "core-js/modules/es.object.assign";
-import "core-js/modules/es.object.keys";
-
 var deepObjectsMerge = function deepObjectsMerge(target, source) {
   // Iterate through `source` properties and if an `Object` set property to merge of `target` and `source` properties
   for (var _i = 0, _Object$keys = Object.keys(source); _i < _Object$keys.length; _i++) {

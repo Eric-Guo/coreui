@@ -1,11 +1,3 @@
-import "core-js/modules/es.array.from";
-import "core-js/modules/es.array.map";
-import "core-js/modules/es.object.assign";
-import "core-js/modules/es.string.iterator";
-import "core-js/modules/es.string.replace";
-import "core-js/modules/es.string.split";
-import "core-js/modules/web.dom-collections.for-each";
-
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
@@ -49,9 +41,7 @@ var AjaxLoad = function ($) {
     subpagesDirectory: 'views/'
   };
 
-  var AjaxLoad =
-  /*#__PURE__*/
-  function () {
+  var AjaxLoad = /*#__PURE__*/function () {
     function AjaxLoad(element, config) {
       this._config = this._getConfig(config);
       this._element = element;
@@ -149,7 +139,7 @@ var AjaxLoad = function ($) {
     ;
 
     _proto._getConfig = function _getConfig(config) {
-      config = Object.assign({}, Default, {}, config);
+      config = Object.assign({}, Default, config);
       return config;
     };
 

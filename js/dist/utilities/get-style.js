@@ -1,6 +1,3 @@
-import "core-js/modules/es.string.match";
-import "core-js/modules/es.string.replace";
-
 /**
  * --------------------------------------------------------------------------
  * CoreUI Utilities (v2.1.16): get-style.js

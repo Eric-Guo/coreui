@@ -1,7 +1,3 @@
-import "core-js/modules/es.string.split";
-import "core-js/modules/es.string.trim";
-import "core-js/modules/web.dom-collections.for-each";
-
 /**
  * --------------------------------------------------------------------------
  * CoreUI Utilities (v2.1.16): get-css-custom-properties.js

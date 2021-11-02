@@ -1,5 +1,3 @@
-import "core-js/modules/es.string.match";
-
 /**
  * --------------------------------------------------------------------------
  * CoreUI Utilities (v2.1.16): hex-to-rgb.js

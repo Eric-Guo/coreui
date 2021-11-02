@@ -1,6 +1,3 @@
-import "core-js/modules/es.array.map";
-import "core-js/modules/es.array.slice";
-
 /**
  * --------------------------------------------------------------------------
  * CoreUI (v2.1.16): toggle-classes.js

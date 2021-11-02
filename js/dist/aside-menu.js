@@ -37,9 +37,7 @@ var AsideMenu = function ($) {
    * ------------------------------------------------------------------------
    */
 
-  var AsideMenu =
-  /*#__PURE__*/
-  function () {
+  var AsideMenu = /*#__PURE__*/function () {
     function AsideMenu(element) {
       this._element = element;
 
