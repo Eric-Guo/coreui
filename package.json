@@ -72,12 +72,15 @@
     "release-zip": "cd dist/ && zip -r9 coreui-$npm_package_version-dist.zip * && shx mv coreui-$npm_package_version-dist.zip ..",
     "watch": "npm-run-all --parallel watch-css watch-js",
     "watch-js": "nodemon --ignore js/dist/ --ignore dist/ -e js -x \"npm-run-all js-compile* js-minify*\"",
-    "watch-css": "nodemon --ignore dist/ -e scss -x \"npm run css\""
+    "watch-css": "nodemon --ignore dist/ -e scss -x \"npm run css\"",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@coreui/coreui-plugin-npm-postinstall": "^1.0.2",
     "bootstrap": "^4.6.1",
     "core-js": "^3.3.4",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
     "regenerator-runtime": "^0.13.3"
   },
   "devDependencies": {
